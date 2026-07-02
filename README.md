@@ -69,14 +69,6 @@ The notebook performs the following steps:
 - Agglomerative Clustering
 - Cluster profiling and visualization
 
-## Results
-
-The analysis found that the optimal number of customer clusters is 4.
-
-The final clusters show different customer patterns based on income, total spending, purchase channels, number of children, response rate, and living status. For example, some clusters represent high-income and high-spending customers, while others represent lower-spending customers with more web visits and lower purchase activity.
-
-These insights can be used by SmartCart to create targeted marketing campaigns and improve customer engagement.
-
 ## Technologies Used
 
 - Python
@@ -92,6 +84,19 @@ These insights can be used by SmartCart to create targeted marketing campaigns a
 - `smartcart.ipynb` - Main notebook containing data preprocessing, analysis, clustering, visualization, and cluster profiling
 - `smartcart_customers.csv` - Customer dataset used for clustering
 
-## Conclusion
+## Results
 
-SmartCart Clustering System demonstrates how unsupervised machine learning can be used to understand customer behavior in an e-commerce business. By segmenting customers into meaningful groups, the project helps businesses move from generic marketing to personalized, data-driven customer engagement.
+The analysis found that the optimal number of customer clusters is 4.
+
+The final clusters show different customer patterns based on income, total spending, purchase channels, number of children, response rate, and living status.
+
+One cluster shows customers with more web visits , with partner , more children and minimal web , store purchases .They can categorized into "Family Shoppers". They can be offered Discounts and Coupons.
+
+Another cluster shows customers mostly Alone , higher age , less web visits but High web purchases and High Store purchaces . They can be categorized into "High Value Singles". They can be offered Premium Services.
+
+Another cluster shows customers with low age , more children, High web visits but very less purchases.
+They can be categorized into "Digital Browsers". They can be offered Sales , heavy discounts and cupons.
+
+The Remaining Cluster shows customers with fewer children, higher age, with partners , less web visits but high web purchases and store purchases. They shows average response . We can offer them Loyality Programs .
+
+These insights can be used by SmartCart to create targeted marketing campaigns and improve customer engagement.
