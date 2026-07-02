@@ -82,7 +82,6 @@ The notebook performs the following steps:
 ## Files
 
 - `smartcart.ipynb` - Main notebook containing data preprocessing, analysis, clustering, visualization, and cluster profiling
-- `smartcart_customers.csv` - Customer dataset used for clustering
 
 ## Results
 
